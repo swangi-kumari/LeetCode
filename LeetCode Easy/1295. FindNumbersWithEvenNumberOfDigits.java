@@ -1,4 +1,3 @@
-public class FindNumbersWithEvenNumberOfDigits {
     class Solution {
         public static void main(String[] args) {
             int[] nums = {12,345,2,6,7896};
@@ -32,4 +31,3 @@ public class FindNumbersWithEvenNumberOfDigits {
         }
     }
 
-}
