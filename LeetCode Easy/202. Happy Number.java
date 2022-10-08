@@ -1,4 +1,4 @@
-/**
+/***
 202. Happy Number
 Write an algorithm to determine if a number n is happy.
 
@@ -25,6 +25,7 @@ Output: false
 **/
 
 class Solution {
+
     public boolean isHappy(int n) {
         if(n==1 || n==7){
             return true;
