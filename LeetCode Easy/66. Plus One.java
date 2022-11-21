@@ -33,6 +33,7 @@ class Solution {
                 digits[i]++;
                 return digits;
             }
+
             digits[i] = 0;  // for some 9 in last
         }
         int [] result = new int[digits.length+1];  // array containing all 9
