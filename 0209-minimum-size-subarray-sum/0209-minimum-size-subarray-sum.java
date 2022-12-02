@@ -9,7 +9,7 @@ class Solution {
             
             while(sum>=target){
                 ans = Math.min(ans, i + 1 - start);
-                sum -= nums[start]; //decrementing ======
+                sum -= nums[start]; //removing 1st of prev window
                 start++;
             }
         }
